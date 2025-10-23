@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora JS | Eduarda Gomes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <!-- Visor da calculadora -->
+    <input type="text" id="display" readonly>
+    
+    <!-- Botões -->
+    <div class="buttons">
+      <button class="btn" onclick="clearDisplay()">C</button>
+      <button class="btn" onclick="deleteLast()">⌫</button>
+      <button class="btn" onclick="appendValue('/')">÷</button>
+      <button class="btn" onclick="appendValue('*')">×</button>
+
+      <button class="btn" onclick="appendValue('7')">7</button>
+      <button class="btn" onclick="appendValue('8')">8</button>
+      <button class="btn" onclick="appendValue('9')">9</button>
+      <button class="btn" onclick="appendValue('-')">−</button>
+
+      <button class="btn" onclick="appendValue('4')">4</button>
+      <button class="btn" onclick="appendValue('5')">5</button>
+      <button class="btn" onclick="appendValue('6')">6</button>
+      <button class="btn" onclick="appendValue('+')">+</button>
+
+      <button class="btn" onclick="appendValue('1')">1</button>
+      <button class="btn" onclick="appendValue('2')">2</button>
+      <button class="btn" onclick="appendValue('3')">3</button>
+      <button class="btn equal" onclick="calculate()">=</button>
+
+      <button class="btn zero" onclick="appendValue('0')">0</button>
+      <button class="btn" onclick="appendValue('.')">.</button>
+    </div>
+  </div>
+
+  <!-- Histórico -->
+  <div class="history">
+    <div class="history-header">
+      <h3>Histórico</h3>
+      <button class="clear-history-btn" onclick="clearHistory()">Limpar</button>
+    </div>
+    <ul id="history-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
