@@ -24,4 +24,4 @@ Durante o desenvolvimento deste projeto, pratiquei:
 - Armazenamento e exibição de dados com **LocalStorage**.  
 - Organização do código com **comentários claros** e boas práticas.
 
-- ![Imagem da Calculadora](calculadora-js.png)
+-
