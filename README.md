@@ -22,4 +22,6 @@ Durante o desenvolvimento deste projeto, pratiquei:
 - Criação de **funções interativas** e reutilizáveis.  
 - Uso de **eventos de teclado** para melhorar a usabilidade.  
 - Armazenamento e exibição de dados com **LocalStorage**.  
-- Organização do código com **comentários claros** e boas práticas.  
+- Organização do código com **comentários claros** e boas práticas.
+
+- ![Imagem da Calculadora](calculadora-js.png)
